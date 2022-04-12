@@ -178,7 +178,7 @@
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>flatten-maven-plugin</artifactId>
-                <version>1.2.5</version>
+                <version>1.2.7</version>
                 <configuration>
                 </configuration>
                 <executions>
@@ -217,7 +217,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-pmd-plugin</artifactId>
-                <version>3.14.0</version>
+                <version>3.16.0</version>
                 <configuration>
                     <targetJdk>15</targetJdk>
                     <failurePriority>1</failurePriority><!-- 5 means fail even on the lowest priority, 0 means never fail -->
@@ -250,7 +250,7 @@
                     <plugin>
                         <groupId>org.owasp</groupId>
                         <artifactId>dependency-check-maven</artifactId>
-                        <version>6.1.3</version>
+                        <version>6.5.3</version>
                         <configuration>
                             <failBuildOnCVSS>7</failBuildOnCVSS>
                             <skipProvidedScope>true</skipProvidedScope>
