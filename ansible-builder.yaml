@@ -37,7 +37,7 @@ spec:
     - name: BUILDER_IMAGE
       description: The location of the ansible-builder image.
       type: string
-      default: quay.io/ansible/ansible-builder:latest
+      default: quay.io/ansible/ansible-runner:stable-2.11-devel
   steps:
 
     - name: ansible-builder-create
