@@ -20,7 +20,7 @@
 	},
 	"dockerfile": {
 		"fileMatch": ["^dockerfile"]
-	}
+	},
  	"tekton": {
  		 "fileMatch": ["\\.yaml$", "\\.yml$"]
 	}
